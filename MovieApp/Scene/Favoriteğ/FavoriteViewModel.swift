@@ -11,7 +11,7 @@ class FavoriteViewModel {
     let apiKey = "e2253416fac0cd2476291eb33c92beb7"
     func getFavoriteMovies() {
         NetworkManager.shared.request(model: String.self,
-                                      url: NetworkHelper.shared.urlConfig(path: "")) { data, error in
+                                      url: NetworkHelper.shared.urlConfig(path: "R")) { data, error in
             
         }
     }
