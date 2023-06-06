@@ -31,10 +31,10 @@
             </objects>
             <point key="canvasLocation" x="335" y="388"/>
         </scene>
-        <!--Home Contoller-->
+        <!--Home Controller-->
         <scene sceneID="c62-T5-KuR">
             <objects>
-                <viewController id="rCi-Ic-pzq" customClass="HomeContoller" customModule="MovieApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rCi-Ic-pzq" customClass="HomeController" customModule="MovieApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WUa-oP-Hfs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,10 +81,6 @@
                                                             </collectionViewCellContentView>
                                                         </collectionViewCell>
                                                     </cells>
-                                                    <connections>
-                                                        <outlet property="dataSource" destination="0xD-gT-WH7" id="PJI-ei-f1q"/>
-                                                        <outlet property="delegate" destination="0xD-gT-WH7" id="EfY-7J-zuk"/>
-                                                    </connections>
                                                 </collectionView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Popular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGl-PX-Mnt">
                                                     <rect key="frame" x="8" y="17" width="59" height="21"/>
@@ -103,15 +99,8 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="393" height="318"/>
-                                        <connections>
-                                            <outlet property="collection" destination="lDK-hd-6Pk" id="fH4-Om-6Tm"/>
-                                        </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="rCi-Ic-pzq" id="yVg-qY-AdR"/>
-                                    <outlet property="delegate" destination="rCi-Ic-pzq" id="Rnz-nN-AaC"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nWw-Gu-Ub5"/>
@@ -127,7 +116,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="AXd-kb-hkZ"/>
                     <connections>
-                        <outlet property="collection" destination="fIx-wE-axs" id="CcE-EM-MDM"/>
+                        <outlet property="collection" destination="fIx-wE-axs" id="Xqs-4x-eaw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u0C-J3-svu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
